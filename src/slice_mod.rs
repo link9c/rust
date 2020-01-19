@@ -8,3 +8,10 @@ pub fn first_word(s: &str) -> &str {
     }
     &s[..]
 }
+
+pub fn slice_a() {
+    let a: (&str, usize) = ("kk", 10);
+    let s = a.0;
+
+    println!("{},{:?}", s, a);
+}

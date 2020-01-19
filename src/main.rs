@@ -30,5 +30,6 @@ fn main() {
     // 这样写也可以，即不使用 slice 语法！
     let word = slice_mod::first_word(my_string_literal);
     println!("{}",word );
+    slice_mod::slice_a();
     
 }
